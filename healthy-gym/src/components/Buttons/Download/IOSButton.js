@@ -4,7 +4,7 @@ import IOSImage from './images/download_ios.png';
 function IOSButton(props) {
 
   return (
-    <div style={{borderRadius: '20px'}}>
+    <div>
       <a href="/">
         <img
           style={{borderRadius: '10px'}}
