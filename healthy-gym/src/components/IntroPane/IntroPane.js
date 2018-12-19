@@ -1,4 +1,7 @@
 import React from 'react';
+
+import IOSButton from './../Buttons/Download/IOSButton';
+
 import backgroundImage from './images/app_background.jpg';
 import iphoneImage from './images/iphone_cover_dark.png';
 
@@ -22,19 +25,12 @@ function IntroPane(props) {
             <p className="lead text-light">A helpful app for tracking workout progress</p>
             <div className="row mt-5">
               <div className="col-6 col-lg-4">
-                <a href="/">
-                  <img className="center-block img-fluid d-block shadowed" src="assets/app/download_android.png"/>
-                </a>
-              </div>
-              <div className="col-6 col-lg-4">
-                <a href="/">
-                  <img className="center-block img-fluid d-block shadowed" src="assets/app/download_ios.png"/>
-                </a>
+                <IOSButton />
               </div>
             </div>
           </div>
           <div className="col-lg-6" style={{display: 'flex', alignItems: 'flex-end'}}>
-            <img className="img-fluid d-block mx-auto" src={iphoneImage} width="400"/>
+            <img className="img-fluid d-block mx-auto" src={iphoneImage} alt="" width="400"/>
           </div>
         </div>
       </div>
