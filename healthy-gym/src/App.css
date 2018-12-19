@@ -30,8 +30,3 @@
     transform: rotate(360deg);
   }
 }
-
-#IntroPane {
-  display:flex;
-  align-items: flex-end;
-}
