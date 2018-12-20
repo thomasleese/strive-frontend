@@ -3,12 +3,30 @@ import React from 'react';
 
 function FeatureCard(props) {
 
+  let iconSize = {
+    fontSize: "200px"
+  }
+
   return (
     <div className='border border-primary p-3 m-3'>
       <div className='card-body'>
         <h4 className="text-primary">{props.title}</h4>
-        <p className="mb-5 text-muted">{props.children}</p>
+        <p className="text-muted">{props.children}</p>
+        <div className='d-flex justify-content-center'>
+          <i class="fa fa-asterisk text-muted" style={iconSize}></i>
+        </div>
       </div>
+    </div>
+  )
+}
+
+function LargeIcon(props) {
+
+  var icon = "fa fa-" + props.icon
+
+  return (
+    <div className='d-flex justify-content-center'>
+      <i class={icon}></i>
     </div>
   )
 }
