@@ -8,7 +8,7 @@ function FeatureCard(props) {
   }
 
   return (
-    <div className='border border-primary p-3 m-3'>
+    <div className='border border-primary p-3 m-3 animate-in-down'>
       <div className='card-body'>
         <h4 className="text-primary">{props.title}</h4>
         <p className="text-muted">{props.children}</p>

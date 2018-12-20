@@ -7,8 +7,8 @@ import iphoneIsometric from './images/iphone_side_dark.png';
 function AboutSubpane(props) {
   return (
     <div className="row py-5">
-      <div className="col-md-5 order-2 order-md-1 animate-in-left">
-        <img className="img-fluid d-block my-3 mx-auto" src={iphoneIsometric} width="200" alt=""/>
+      <div className="col-md-5 order-2 order-md-1 animate-in-down">
+        <img className="img-fluid d-block my-3 mx-auto fade-in" src={iphoneIsometric} width="200" alt=""/>
       </div>
       <div className="col-md-7 align-self-center order-1 order-md-2 my-3 text-md-left text-center">
         <h2>Simple, Helpful, and Productive</h2>
@@ -36,7 +36,7 @@ function SupportSubpane(props) {
         <a className="btn btn-lg btn-outline-primary shadowed m-1" href="/">Facebook</a>
         <a className="btn btn-lg btn-outline-primary shadowed m-1" href="/">Twitter</a>
       </div>
-      <div className="align-self-center mt-5 col-lg-5 animate-in-right">
+      <div className="align-self-center mt-5 col-lg-5 animate-in-down">
         <img className="img-fluid d-block" src={iphoneIpadImage} alt=""/> </div>
     </div>
   )

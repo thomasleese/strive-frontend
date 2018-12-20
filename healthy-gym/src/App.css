@@ -31,6 +31,12 @@
   }
 }
 
-:root {
-  --primary: rgba(0, 0, 0, 0);
-}
+/* Animate on entrance */
+.animate-in-down {
+  transition: all 1.3s ease-out;
+  position: relative;
+  opacity: 1;
+  top: 0px; }
+  .animate-in-down.out-of-viewport {
+    top: 40px;
+    opacity: 0; }
