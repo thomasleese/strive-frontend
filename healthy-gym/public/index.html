@@ -11,6 +11,51 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>Healthy Gym</title>
+
+    <script>
+    (function() {
+
+      //Set up defaults
+        var duration = "1000";
+        var heightOffset = 100;
+
+        function isElementVisible(elem) {
+
+          var rect = elem.getBoundingClientRect();
+
+          //Return true if any of the following conditions are met:
+          return (
+            // The top is in view: the top is more than 0 and less than the window height (the top of the element is in view)
+            ( (rect.top + heightOffset) >= 0 && (rect.top + heightOffset) <= window.innerHeight ) ||
+            // The bottom is in view: bottom position is greater than 0 and greater than the window height
+            ( (rect.bottom + heightOffset) >= 0 && (rect.bottom + heightOffset) <= window.innerHeight ) ||
+            // The top is above the viewport and the bottom is below the viewport
+            ( (rect.top + heightOffset) < 0 && (rect.bottom + heightOffset) > window.innerHeight )
+          )
+
+        }
+
+
+      function update() {
+        var nodes = document.querySelectorAll("*:not(.animate-in-done)[class^='animate-in'], *:not(.animate-in-done)[class*=' animate-in']")
+
+        for (var i = 0; i < nodes.length; i++) {
+          if (isElementVisible(nodes[i])) {
+            nodes[i].classList.remove("out-of-viewport")
+            nodes[i].classList.add("animate-in-done")
+          } else {
+            nodes[i].classList.add("out-of-viewport")
+          }
+        }
+      }
+
+      document.addEventListener("DOMContentLoaded", update);
+
+      window.addEventListener("scroll", update)
+
+    })();
+    </script>
+
   </head>
   <body>
     <noscript>
