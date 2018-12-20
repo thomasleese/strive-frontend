@@ -2,7 +2,6 @@ import React from 'react';
 
 import IOSButton from './../Buttons/Download/IOSButton';
 
-import backgroundImage from './images/app_background.jpg';
 import iphoneImage from './images/iphone_cover_dark.png';
 
 
