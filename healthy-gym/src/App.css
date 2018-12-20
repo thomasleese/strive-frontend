@@ -31,7 +31,6 @@
   }
 }
 
-/* Animate on entrance */
 .animate-in-down {
   transition: all 1.3s ease-out;
   position: relative;
