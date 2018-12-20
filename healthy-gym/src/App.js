@@ -6,6 +6,7 @@ import DescriptionPane from './components/DescriptionPane/DescriptionPane';
 import PricingPane from './components/PricingPane/PricingPane';
 import FeaturePane from './components/FeaturePane/FeaturePane';
 import ActionPane from './components/ActionPane/ActionPane';
+import Footer from './components/Footer/Footer';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
         <PricingPane/>
         <FeaturePane/>
         <ActionPane/>
+        <Footer/>
       </div>
     );
   }
