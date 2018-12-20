@@ -49,13 +49,9 @@
         }
       }
 
-      document.addEventListener("DOMContentLoaded", function(event) {
-        update()
-      });
+      document.addEventListener("DOMContentLoaded", update);
 
-      window.addEventListener("scroll", function() {
-        update()
-      })
+      window.addEventListener("scroll", update)
 
     })();
     </script>
