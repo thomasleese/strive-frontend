@@ -33,25 +33,25 @@ function FeaturePane(props) {
         </div>
         <div className="row justify-content-around">
           <div className="text-md-left text-center col-lg-6 col-md-6 px-0">
-            <FeatureCard title="Easy Use">
-              Stuff <br/>Works with IPhones and IPads
+            <FeatureCard title="Cross Platform">
+              Works just the same on iPhone<br />and on iPad.
             </FeatureCard>
-            <FeatureCard title="Customized settings">
-              Choose settings depending on the criteria you value the most. With no limits.
+            <FeatureCard title="Helps you improve">
+              Gives you suggested sets and infoms you about your muscle recovery so you always get the best workout.
             </FeatureCard>
-            <FeatureCard title="Connect">
-              In-app chat panel 24/7 active. <br/>The support you need, right there.
+            <FeatureCard title="Quick">
+              With templates you can save your regular workouts, and entering your sets is so easy with each page.
             </FeatureCard>
           </div>
           <div className="text-md-left text-center col-lg-6 col-md-6 px-0">
-            <FeatureCard title="Easy Use">
-              Stuff <br/>Works with IPhones and IPads
+            <FeatureCard title="Saved in the cloud">
+              Never worry about losing your gym data, it's all safe in the cloud and synced across all your devices.
             </FeatureCard>
-            <FeatureCard title="Customized settings">
-              Choose settings depending on the criteria you value the most. With no limits.
+            <FeatureCard title="Know where to improve">
+              With goals and progress charts, the app will tell you where you need to improve and help you reach your goals.
             </FeatureCard>
-            <FeatureCard title="Connect">
-              In-app chat panel 24/7 active. <br/>The support you need, right there.
+            <FeatureCard title="And so much more…">
+              Our passionate development team use the app every day and new features are being added all the time.
             </FeatureCard>
           </div>
         </div>
