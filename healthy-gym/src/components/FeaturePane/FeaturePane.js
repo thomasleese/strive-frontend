@@ -13,7 +13,7 @@ function FeatureCard(props) {
         <h4 className="text-primary">{props.title}</h4>
         <p className="text-muted">{props.children}</p>
         <div className='d-flex justify-content-center'>
-          <i class="fa fa-asterisk text-muted" style={iconSize}></i>
+          <i className="fa fa-asterisk text-muted" style={iconSize}></i>
         </div>
       </div>
     </div>
