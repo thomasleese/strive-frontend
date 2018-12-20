@@ -10,7 +10,7 @@ function Card(props) {
         <div className="card-text py-3">
           {props.children}
         </div>
-        <a href="#" className="btn btn-primary">{props.linkText}</a>
+        <a href="/" className="btn btn-primary">{props.linkText}</a>
       </div>
     </div>
   )
