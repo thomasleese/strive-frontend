@@ -20,16 +20,6 @@ function FeatureCard(props) {
   )
 }
 
-function LargeIcon(props) {
-
-  var icon = "fa fa-" + props.icon
-
-  return (
-    <div className='d-flex justify-content-center'>
-      <i class={icon}></i>
-    </div>
-  )
-}
 
 function FeaturePane(props) {
 
