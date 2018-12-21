@@ -14,7 +14,7 @@ function IntroPane(props) {
   }
 
   return (
-    <div className="section-fade-out pt-5 backgroundGradient" style= {style}>
+    <div className="section-fade-out pt-5 background-gradient" style= {style}>
       <div className="container mt-5 pt-5">
         <div className="row" style={{height: '100%'}}>
           <div className="col-md-6 my-5 text-lg-left text-center align-start">
