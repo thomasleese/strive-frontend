@@ -2,22 +2,19 @@ import React from 'react';
 
 import IOSButton from './../Buttons/Download/IOSButton';
 
-import backgroundImage from './images/app_background.jpg';
 import iphoneImage from './images/iphone_cover_dark.png';
 
 
 function IntroPane(props) {
 
   var style = {
-    backgroundImage: "url(" + backgroundImage + ")",
-    backgroundPosition: '50% 50%',
     height: window.innerHeight,
     display: 'flex',
     alignItems: 'stretch'
   }
 
   return (
-    <div className="section-fade-out pt-5" style= {style}>
+    <div className="section-fade-out pt-5 background-gradient" style= {style}>
       <div className="container mt-5 pt-5">
         <div className="row" style={{height: '100%'}}>
           <div className="col-md-6 my-5 text-lg-left text-center align-start">
