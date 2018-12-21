@@ -1,6 +1,20 @@
 import React from 'react';
 
 
+function Icon(props)  {
+
+  let iconSize = {
+    fontSize: props.fontSize
+  }
+
+  let className = "text-muted fa fa-" + props.iconName
+
+  return (
+    <i className={className} style={iconSize}></i>
+  )
+}
+
+
 function FeatureCard(props) {
 
   let iconSize = {
@@ -13,7 +27,7 @@ function FeatureCard(props) {
         <h4 className="text-primary">{props.title}</h4>
         <p className="text-muted">{props.children}</p>
         <div className='d-flex justify-content-center'>
-          <i className="fa fa-asterisk text-muted" style={iconSize}></i>
+          <Icon fontSize="200px" iconName="asterisk" />
         </div>
       </div>
     </div>
