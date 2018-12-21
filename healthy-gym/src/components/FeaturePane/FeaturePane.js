@@ -1,6 +1,20 @@
 import React from 'react';
 
 
+function Icon(props)  {
+
+  let iconSize = {
+    fontSize: props.fontSize
+  }
+
+  let className = "text-muted fa fa-" + props.iconName
+
+  return (
+    <i className={className} style={iconSize}></i>
+  )
+}
+
+
 function FeatureCard(props) {
 
   let iconSize = {
@@ -13,11 +27,15 @@ function FeatureCard(props) {
         <h4 className="text-primary">{props.title}</h4>
         <p className="text-muted">{props.children}</p>
         <div className='d-flex justify-content-center'>
-          <i className="fa fa-asterisk text-muted" style={iconSize}></i>
+          <Icon fontSize="200px" iconName={props.iconName} />
         </div>
       </div>
     </div>
   )
+}
+
+FeatureCard.defaultProps = {
+  iconName: "asterisk"
 }
 
 
@@ -33,24 +51,24 @@ function FeaturePane(props) {
         </div>
         <div className="row justify-content-around">
           <div className="text-md-left text-center col-lg-6 col-md-6 px-0">
-            <FeatureCard title="Cross Platform">
+            <FeatureCard title="Cross Platform" iconName="tablet">
               Works just the same on iPhone<br />and on iPad.
             </FeatureCard>
-            <FeatureCard title="Helps you improve">
+            <FeatureCard title="Helps you improve" iconName="book">
               Gives you suggested sets and infoms you about your muscle recovery so you always get the best workout.
             </FeatureCard>
-            <FeatureCard title="Quick">
+            <FeatureCard title="Quick"iconName="running">
               With templates you can save your regular workouts, and entering your sets is so easy with each page.
             </FeatureCard>
           </div>
           <div className="text-md-left text-center col-lg-6 col-md-6 px-0">
-            <FeatureCard title="Saved in the cloud">
+            <FeatureCard title="Saved in the cloud" iconName="cloud">
               Never worry about losing your gym data, it's all safe in the cloud and synced across all your devices.
             </FeatureCard>
-            <FeatureCard title="Know where to improve">
+            <FeatureCard title="Know where to improve" iconName="chart-line">
               With goals and progress charts, the app will tell you where you need to improve and help you reach your goals.
             </FeatureCard>
-            <FeatureCard title="And so much more…">
+            <FeatureCard title="And so much more…" iconName="ellipsis-h">
               Our passionate development team use the app every day and new features are being added all the time.
             </FeatureCard>
           </div>
