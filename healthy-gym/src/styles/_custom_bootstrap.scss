@@ -1,0 +1,15 @@
+
+// New color
+$new-color: #ad9a5b;
+
+// Array of colors from _variables.scss
+$theme-colors: (
+  primary: $new-color,
+  secondary: $new-color,
+  success: $new-color,
+  info: $new-color,
+  warning: $new-color,
+  danger: $new-color,
+  light: $new-color,
+  dark: $new-color
+) !default;
