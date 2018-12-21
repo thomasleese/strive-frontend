@@ -57,7 +57,7 @@ function FeaturePane(props) {
             <FeatureCard title="Helps you improve" iconName="book">
               Gives you suggested sets and infoms you about your muscle recovery so you always get the best workout.
             </FeatureCard>
-            <FeatureCard title="Quick"iconName="angle-double-right">
+            <FeatureCard title="Quick"iconName="running">
               With templates you can save your regular workouts, and entering your sets is so easy with each page.
             </FeatureCard>
           </div>
