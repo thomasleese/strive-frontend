@@ -1,15 +1,11 @@
 
 // New color
-$new-color: #ad9a5b;
+$tertiary: rgb(84, 63, 60);
+$primary: rgb(67, 132, 148);
+$secondary: rgb(33, 45, 75);
 
 // Array of colors from _variables.scss
 $theme-colors: (
-  primary: $new-color,
-  secondary: $new-color,
-  success: $new-color,
-  info: $new-color,
-  warning: $new-color,
-  danger: $new-color,
-  light: $new-color,
-  dark: $new-color
+  primary: $primary,
+  secondary: $secondary,
 ) !default;
