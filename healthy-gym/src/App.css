@@ -18,6 +18,11 @@
   color: white;
 }
 
+.background-gradient {
+  background-image: linear-gradient(to bottom right, rgb(84, 63, 60), rgb(33, 45, 75),  rgb(67, 132, 148));
+  background-position: '50% 50%';
+}
+
 .App-link {
   color: #61dafb;
 }
