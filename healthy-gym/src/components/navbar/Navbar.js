@@ -12,13 +12,12 @@ function Navbar(props) {
         <div className="collapse navbar-collapse text-center justify-content-end" id="navbar2SupportedContent">
           <ul className="navbar-nav">
             <li className="nav-item mx-2">
-              <a className="nav-link" href="/">Features</a>
+              <a className="nav-link" href="#help">Get Help</a>
             </li>
             <li className="nav-item mx-2">
-              <a className="nav-link" href="/">Reviews</a>
+              <a className="nav-link" href="#features">Features</a>
             </li>
           </ul>
-          <a className="btn navbar-btn mx-2 btn-primary shadowed" href="/">Download</a>
         </div>
       </div>
     </nav>
