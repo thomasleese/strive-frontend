@@ -8,8 +8,9 @@ function ActionPane(props) {
   let style = {
      backgroundImage: "url(" + runningImage + ")",
      backgroundPosition: 'top left',
+     backgroundRepeat: 'no-repeat',
+     backgroundSize: 'cover',
      height: '500px',
-     backgroundSize: '100%',
   }
 
   return (

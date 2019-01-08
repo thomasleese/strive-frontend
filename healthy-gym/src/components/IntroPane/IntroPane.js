@@ -8,7 +8,7 @@ import iphoneImage from './images/workout_image.png';
 function IntroPane(props) {
 
   var style = {
-    height: window.innerHeight,
+    minHeight: window.innerHeight,
     display: 'flex',
     alignItems: 'stretch'
   }
