@@ -19,7 +19,7 @@ function ActionPane(props) {
         <div className="row">
           <div className="col-md-6 align-self-center text-center text-md-left">
             <h1 className='text-light'><b>Download Healthy Gym</b></h1>
-            <p className="lead text-light"><b className="text-light">Get it on your iOS device right now</b></p>
+            <p className="lead text-light"><b className="text-light">Get it on your iOS device January 2019</b></p>
             <div className="row mt-5">
               <div className="col-6 col-lg-4">
                 <IOSButton />
