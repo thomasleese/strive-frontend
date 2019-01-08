@@ -1,5 +1,7 @@
 import React from 'react';
 
+import {FacebookLink, TwitterLink} from './../Links/Links';
+
 import iphoneIpadImage from './images/ipad_image.png';
 import iphoneIsometric from './images/goals_image.png';
 
@@ -30,11 +32,10 @@ function SupportSubpane(props) {
         <h2>Support</h2>
         <h4 className='text-muted' >Get Support, Ask Questions, Request features.</h4>
         <p className="my-4 text-muted">
-          Follow the link below to our forum and feel free to ask questions, or request new features. Alternitively contact us by Email, Facebook or on Medium.
+          Follow the links below to our social media and feel free to ask questions, or request new features. ADD MORE
         </p>
-        <a className="btn btn-lg btn-outline-primary shadowed m-1" href="/">Forum</a>
-        <a className="btn btn-lg btn-outline-primary shadowed m-1" href="/">Facebook</a>
-        <a className="btn btn-lg btn-outline-primary shadowed m-1" href="/">Twitter</a>
+        <FacebookLink className="btn btn-lg btn-outline-primary shadowed m-1">Facebook</FacebookLink>
+        <TwitterLink className="btn btn-lg btn-outline-primary shadowed m-1">Twitter</TwitterLink>
       </div>
       <div className="align-self-center mt-5 col-lg-6 animate-in-down">
         <img className="img-fluid d-block" src={iphoneIpadImage} width="600" alt=""/> </div>
