@@ -11,7 +11,7 @@ function Link(props) {
 }
 
 Link.defaultProps = {
-  target:"_blank"
+  target: "_blank"
 }
 
 
@@ -43,12 +43,3 @@ export function MediumLink(props) {
     </Link>
   )
 }
-
-export {}
-
-
-//<FacebookLink className="btn btn-lg btn-outline-primary shadowed m-1" />
-//<TwitterLink className="btn btn-lg btn-outline-primary shadowed m-1" />
-//<a href="https://www.instagram.com" target="_blank">
-//  <i className="fab fa-fw fa-medium fa-3x text-light"></i>
-//</a>

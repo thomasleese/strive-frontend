@@ -23,11 +23,11 @@ function FeatureCard(props) {
   }
 
   return (
-    <div className='card border border-primary p-3 m-3 animate-in-down align-items-stretch align-content-stretch w-100'>
-      <div className='card-body'>
+    <div className="card border border-primary p-3 m-3 animate-in-down align-items-stretch align-content-stretch w-100">
+      <div className="card-body">
         <h4 className="text-primary">{props.title}</h4>
         <p className="text-muted">{props.children}</p>
-        <div className='d-flex justify-content-center'>
+        <div className="d-flex justify-content-center">
           <Icon fontSize="100px" iconName={props.iconName} />
         </div>
       </div>
