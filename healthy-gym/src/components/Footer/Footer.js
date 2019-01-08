@@ -9,7 +9,7 @@ function Footer(props) {
       <div className="container">
         <div className="row">
           <div className="col-4 col-md-1 align-self-center my-3">
-            <FacebookLink href="https://www.facebook.com" target="blank">
+            <FacebookLink>
               <i className="fab fa-facebook fa-3x text-light"></i>
             </FacebookLink>
           </div>

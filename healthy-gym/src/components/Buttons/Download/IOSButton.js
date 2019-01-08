@@ -17,5 +17,11 @@ function IOSButton(props) {
   )
 }
 
+function ComingSoon(props) {
+  return (
+    <button type="button" class="btn btn-primary btn-lg">Coming soon to iOS</button>
+  )
+}
 
-export default IOSButton
+
+export default ComingSoon
