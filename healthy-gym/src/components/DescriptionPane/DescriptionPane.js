@@ -13,11 +13,12 @@ function AboutSubpane(props) {
         <img className="img-fluid d-block my-3 mx-auto fade-in" src={iphoneIsometric} width="260" alt=""/>
       </div>
       <div className="col-md-7 align-self-center order-1 order-md-2 my-3 text-md-left text-center">
-        <h2>Simple, Helpful, and Productive</h2>
+        <h2>All the features you need</h2>
+        <h4 className="text-muted">In a simple to use interface</h4>
         <p className="my-4 text-muted">
-          Have all your progress at the gym saved for access on any device, create templates for your workouts and set yourself goals to keep yourself improving.
-
-          TODO: LIST MORE FEATURES HERE
+          Track your workouts with ease (and style!) using our fast and easy to
+          use input interface. Create templates so you can get right into the
+          action. Set goals and achieve them with our powerful insights.
         </p>
         <a className="btn btn-outline-primary" href="#features">Learn more</a>
       </div>
@@ -27,12 +28,14 @@ function AboutSubpane(props) {
 
 function SupportSubpane(props) {
   return (
-    <div className="row pt-5">
+    <div id="help" className="row pt-5">
       <div className="align-self-center col-lg-6 text-md-left text-center">
-        <h2>Support</h2>
-        <h4 className='text-muted' >Get Support, Ask Questions, Request features.</h4>
+        <h2>Get all the help you need</h2>
+        <h4 className="text-muted">We're open to feedback, and we'll answer your questions</h4>
         <p className="my-4 text-muted">
-          Follow the links below to our social media and feel free to ask questions, or request new features. ADD MORE
+          Use the links below to chat to us about anything. We want you
+          to have the best experience while using the app and we strive to
+          add requested features and solve your problems quickly.
         </p>
         <FacebookLink className="btn btn-lg btn-outline-primary shadowed m-1">Facebook</FacebookLink>
         <TwitterLink className="btn btn-lg btn-outline-primary shadowed m-1">Twitter</TwitterLink>
