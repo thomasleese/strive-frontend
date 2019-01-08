@@ -1,14 +1,14 @@
 import React from 'react';
 
-import iphoneIpadImage from './images/iphone_ipad_dark.png';
-import iphoneIsometric from './images/iphone_side_dark.png';
+import iphoneIpadImage from './images/ipad_image.png';
+import iphoneIsometric from './images/goals_image.png';
 
 
 function AboutSubpane(props) {
   return (
     <div className="row py-5">
       <div className="col-md-5 order-2 order-md-1 animate-in-down">
-        <img className="img-fluid d-block my-3 mx-auto fade-in" src={iphoneIsometric} width="200" alt=""/>
+        <img className="img-fluid d-block my-3 mx-auto fade-in" src={iphoneIsometric} width="260" alt=""/>
       </div>
       <div className="col-md-7 align-self-center order-1 order-md-2 my-3 text-md-left text-center">
         <h2>Simple, Helpful, and Productive</h2>
@@ -26,7 +26,7 @@ function AboutSubpane(props) {
 function SupportSubpane(props) {
   return (
     <div className="row pt-5">
-      <div className="align-self-center col-lg-7 text-md-left text-center">
+      <div className="align-self-center col-lg-6 text-md-left text-center">
         <h2>Support</h2>
         <h4 className='text-muted' >Get Support, Ask Questions, Request features.</h4>
         <p className="my-4 text-muted">
@@ -36,8 +36,8 @@ function SupportSubpane(props) {
         <a className="btn btn-lg btn-outline-primary shadowed m-1" href="/">Facebook</a>
         <a className="btn btn-lg btn-outline-primary shadowed m-1" href="/">Twitter</a>
       </div>
-      <div className="align-self-center mt-5 col-lg-5 animate-in-down">
-        <img className="img-fluid d-block" src={iphoneIpadImage} alt=""/> </div>
+      <div className="align-self-center mt-5 col-lg-6 animate-in-down">
+        <img className="img-fluid d-block" src={iphoneIpadImage} width="600" alt=""/> </div>
     </div>
   )
 }

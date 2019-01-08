@@ -2,7 +2,7 @@ import React from 'react';
 
 import IOSButton from './../Buttons/Download/IOSButton';
 
-import iphoneImage from './images/iphone_cover_dark.png';
+import iphoneImage from './images/workout_image.png';
 
 
 function IntroPane(props) {
@@ -26,8 +26,8 @@ function IntroPane(props) {
               </div>
             </div>
           </div>
-          <div className="col-lg-6" style={{display: 'flex', alignItems: 'flex-end'}}>
-            <img className="img-fluid d-block mx-auto" src={iphoneImage} alt="" width="400"/>
+          <div className="col-lg-6" style={{display: 'flex', alignItems: 'flex-start'}}>
+            <img className="img-fluid d-block mx-auto" src={iphoneImage} alt="" width="300"/>
           </div>
         </div>
       </div>
