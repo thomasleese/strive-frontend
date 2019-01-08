@@ -1,6 +1,5 @@
 import React from 'react';
 import IOSButton from './../Buttons/Download/IOSButton';
-import isometricImage from './images/iphone_isometric_dark.png';
 import runningImage from './images/barbell.jpg';
 
 function ActionPane(props) {
