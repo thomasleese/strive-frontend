@@ -13,12 +13,12 @@ function AboutSubpane(props) {
         <img className="img-fluid d-block my-3 mx-auto fade-in" src={iphoneIsometric} width="260" alt=""/>
       </div>
       <div className="col-md-7 align-self-center order-1 order-md-2 my-3 text-md-left text-center">
-        <h2>All the features you need</h2>
+        <h2>All you need to achieve your goals</h2>
         <h4 className="text-muted">In a simple to use interface</h4>
         <p className="my-4 text-muted">
-          Track your workouts with ease (and style!) using our fast and easy to
-          use input interface. Create templates so you can get right into the
-          action. Set goals and achieve them with our powerful insights.
+          Set goals, view progress graphs and
+          improve performance through suggested sets. Track your workouts with ease
+          (and style!) and create templates so you can get right into the action.
         </p>
         <a className="btn btn-outline-primary" href="#features">Learn more</a>
       </div>

@@ -57,7 +57,7 @@ function FeaturePane(props) {
             <FeatureCard title="Saved in the cloud" iconName="cloud">
               Never worry about losing your gym data, it's all safe in the cloud and synced across all your devices.
             </FeatureCard>
-            <FeatureCard title="Know where to improve" iconName="chart-line">
+            <FeatureCard title="Get useful insights" iconName="chart-line">
               With goals and progress charts, the app will tell you where you need to improve and help you reach your goals.
             </FeatureCard>
             <FeatureCard title="Helps you improve" iconName="book">
