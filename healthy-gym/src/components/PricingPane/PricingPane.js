@@ -26,14 +26,14 @@ function PricingPane(props) {
       <div className="container">
         <CardRow largeClass="col-lg-6">
           <Card title="Free" linkText="Download Soon">
-            <h5 className="lead text-center mb-4">Try free for a month with 30 workouts!</h5>
+            <h5 className="lead text-center mb-4">Try free with a fortnight of workouts!</h5>
             <ul className="list-group text-left">
-              <li className="list-group-item">30 Workouts</li>
-              <li className="list-group-item">3 Workout Templates</li>
+              <li className="list-group-item">14 workouts</li>
+              <li className="list-group-item">3 templates</li>
             </ul>
           </Card>
           <Card title="Pro" linkText="Download Soon">
-          <h5 className="lead text-center mb-4">Enjoy the best features, with a low price.</h5>
+          <h5 className="lead text-center mb-4">£2.99 a month or £27.99 a year.</h5>
             <ul className="list-group text-left">
               <li className="list-group-item">Unlimited Workouts</li>
               <li className="list-group-item">Unlimited Workout Templates</li>
