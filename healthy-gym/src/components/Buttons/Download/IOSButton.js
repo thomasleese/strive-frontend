@@ -5,7 +5,7 @@ function IOSButton(props) {
 
   return (
     <div>
-      <a href="/">
+      <a href="https://itunes.apple.com/us/app/healthy-gym/id1453225146?ls=1&mt=8">
         <img
           style={{borderRadius: '10px'}}
           className="center-block img-fluid d-block shadowed"
@@ -19,9 +19,9 @@ function IOSButton(props) {
 
 function ComingSoon(props) {
   return (
-    <button type="button" class="btn btn-primary btn-lg">Coming soon to iOS</button>
+    <button type="button" class="btn btn-primary btn-lg">Coming soon to Apple Watch</button>
   )
 }
 
 
-export default ComingSoon
+export default IOSButton
