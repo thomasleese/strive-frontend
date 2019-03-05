@@ -1,8 +1,6 @@
 import React from 'react';
 
-
 function Link(props) {
-
   return (
     <a href={props.href} className={props.className} target={props.target}>
       {props.children}
@@ -14,10 +12,8 @@ Link.defaultProps = {
   target: "_blank"
 }
 
-
 export function TwitterLink(props) {
-
-  let link = "https://twitter.com/healthy__app"
+  let link = "https://twitter.com/orycion"
   return (
     <Link href={link} className={props.className}>
       {props.children}
@@ -27,7 +23,7 @@ export function TwitterLink(props) {
 
 
 export function FacebookLink(props) {
-  let link = "https://www.facebook.com/Healthy-App-287577978779609/"
+  let link = "https://www.facebook.com/orycion"
   return (
     <Link href={link} className={props.className}>
       {props.children}
