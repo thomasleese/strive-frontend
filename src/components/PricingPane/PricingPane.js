@@ -26,9 +26,9 @@ function PricingPane(props) {
       <div className="container">
         <CardRow largeClass="col-lg-6">
           <Card title="Free" linkText="Download Soon">
-            <h5 className="lead text-center mb-4">Try free with a fortnight of workouts!</h5>
+            <h5 className="lead text-center mb-4">Try free with five workouts!</h5>
             <ul className="list-group text-left">
-              <li className="list-group-item">14 workouts</li>
+              <li className="list-group-item">5 workouts</li>
               <li className="list-group-item">3 templates</li>
             </ul>
           </Card>
