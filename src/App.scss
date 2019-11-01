@@ -1,6 +1,6 @@
-$tertiary: rgb(84, 63, 60);
-$primary: rgb(67, 132, 148);
-$secondary: rgb(33, 45, 75);
+$primary: rgb(245, 158, 113);
+$secondary: rgb(94, 183, 161);
+$tertiary: rgb(49, 128, 130);
 
  // Array of colors from _variables.scss
 $theme-colors: (
@@ -48,7 +48,7 @@ $theme-colors: (
 }
 
 .background-gradient {
-  background-image: linear-gradient(to bottom right, $tertiary, $secondary, $primary);
+  background-image: linear-gradient(to bottom right, $secondary, $tertiary);
   background-position: '50% 50%';
 }
 

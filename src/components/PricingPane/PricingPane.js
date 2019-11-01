@@ -22,7 +22,7 @@ function Card(props) {
 
 function PricingPane(props) {
   return (
-    <div className="py-5 bg-primary" id="download">
+    <div className="py-5 bg-secondary" id="download">
       <div className="container">
         <CardRow largeClass="col-lg-6">
           <Card title="Free" linkText="Download Soon">
