@@ -16,7 +16,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build && cp build/index.html build/404.html",
-    "deploy": "gh-pages -d build -b master -r https://github.com/orycion/strive-website.git"
+    "deploy": "gh-pages -d build -b master -r git@github.com:orycion/strive-website.git"
   },
   "eslintConfig": {
     "extends": "react-app"
