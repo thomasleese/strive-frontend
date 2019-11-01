@@ -5,7 +5,7 @@ function Navbar(props) {
   return (
     <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <div className="container" >
-        <a className="navbar-brand" href="/" >Healthy Gym</a>
+        <a className="navbar-brand" href="/" >Strive</a>
         <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar2SupportedContent" aria-controls="navbar2SupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -24,4 +24,4 @@ function Navbar(props) {
   )
 }
 
-export default Navbar
+export default Navbar;
