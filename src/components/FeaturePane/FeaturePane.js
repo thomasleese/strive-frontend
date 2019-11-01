@@ -3,7 +3,6 @@ import React from 'react';
 import CardRow from './../CardRow/CardRow';
 
 function Icon(props)  {
-
   let iconSize = {
     fontSize: props.fontSize
   }
@@ -17,11 +16,6 @@ function Icon(props)  {
 
 
 function FeatureCard(props) {
-
-  let iconSize = {
-    fontSize: "200px"
-  }
-
   return (
     <div className="card border border-primary p-3 m-3 animate-in-down align-items-stretch align-content-stretch w-100">
       <div className="card-body">
@@ -33,15 +27,13 @@ function FeatureCard(props) {
       </div>
     </div>
   )
-}
+};
 
 FeatureCard.defaultProps = {
   iconName: "asterisk"
-}
-
+};
 
 function FeaturePane(props) {
-
   return (
     <div className="py-5" id="features">
       <div className="container">
