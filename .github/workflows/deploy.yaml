@@ -27,11 +27,9 @@ jobs:
         git config --global user.email "deploy@orycion.com"
         git config --global user.name "Deploy"
 
-        eval `ssh-agent -t 60 -s`
-        echo "$DEPLOY_KEY" | ssh-add -
-
         mkdir -p ~/.ssh/
         ssh-keyscan github.com >> ~/.ssh/known_hosts
+        echo "$DEPLOY_KEY" > ~/.ssh/id_rsa
       env:
         DEPLOY_KEY: ${{ secrets.GITHUB_DEPLOY_KEY }}
 
